@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
-    <link rel="stylesheet" href="stylesheets/main.css">
+    <link rel="stylesheet" href="assets/stylesheets/main.css">
 </head>
 <body>
     <div id="wrapper">
-      <img src="assets/images/bg.jpg" alt="bg-img">
-      <div id="blur"></div>
-        <div id="main-content">
+      <img src="assets/images/bg.jpg" height="100vh" alt="bg-img">
+      <div id="blur" style="height: 100vh;"></div>
+        <div id="main-content" style="height: 100vh;">
             <nav>
                 <div id="logo">
                     <img src="https://media4.giphy.com/media/RLDpFIGmWWWmAwva8G/giphy.webp?cid=790b76113vehykwo5u4juwa0i7kvja50g02fk3rsobi3rzsk&ep=v1_gifs_search&rid=giphy.webp&ct=s" alt="logo">
@@ -20,36 +20,28 @@
                     <a href="index.html">Home</a>
                     <a href="About_us.html">About us</a>
                     <a href="Special.html">Menu</a>
-                    <a href="Contact.html">Contact</a>
+                    <a style="text-decoration: 1px rgb(255, 196, 0) underline;
+                    text-underline-offset: 5px;" href="Contact.html">Contact</a>
                 </div>
             </nav>
 
-            <!-- Contact Page -->
-            <div id="contact" class="tm-page-content">
-                <div class="tm-black-bg tm-contact-text-container">
-                  <h2 class="tm-text-primary">Contact Bachelors' Coffee Adda</h2>
-                  <p>Bachalor's Coffee Adda is a best cafetaria. This is a best drinks & food i hope you contact this caffee.</p>
-                </div>
-                <div class="tm-black-bg tm-contact-form-container tm-align-right">
-                  <form action="" method="POST" id="contact-form">
-                    <div class="tm-form-group">
-                      <input type="text" name="name" class="tm-form-control" placeholder="Name" required="" />
-                    </div>
-                    <div class="tm-form-group">
-                      <input type="email" name="email" class="tm-form-control" placeholder="Email" required="" />
-                    </div>        
-                    <div class="tm-form-group tm-mb-30">
-                      <textarea rows="6" name="message" class="tm-form-control" placeholder="Message" required=""></textarea>
-                    </div>        
-                    <div>
-                      <button type="submit" class="tm-btn-primary tm-align-right">
-                        Submit
-                      </button>
-                    </div>
-                  </form>
-                </div>
+            <div id="contact-detail">
+              <div id="cd-left">
+                <h2>Contact Wave</h2>
+                <p>Bachalor's Coffee Adda is a best cafetaria. This is a best drinks & food i hope you contact this caffee.</p>
+              </div>
+              <div id="cd-right">
+                <h2>Contact Us</h2>
+                <form action="" method="post" id="contact-form">
+                  <input type="text" name="name" placeholder="Name">
+                  <input type="email" name="email" placeholder="Email">
+                  <input type="text" name="phone" placeholder="Phone">
+                  <textarea name="message" placeholder="Message"></textarea>
+                  <button name="submit" type="submit">SUBMIT</button>
+                </form>
+              </div>
             </div>
-            <!-- end Contact Page -->
+
         </div>
     </div>
 </body>
