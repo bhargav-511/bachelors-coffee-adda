@@ -1,10 +1,10 @@
 @font-face {
     font-family: coffee;
-    src: url(/assets/fonts/Coffee.ttf);
+    src: url(/fonts/Coffee.ttf);
 }
 @font-face {
     font-family: tea;
-    src: url(/assets/fonts/coffee-tea.ttf);
+    src: url(/fonts/coffee-tea.ttf);
 }
 
 * {
