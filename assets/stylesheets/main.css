@@ -184,7 +184,7 @@ body {
 /*menu*/
 
 #blur-menu{
-    height: 550vh;
+    height: 580vh;
     width: 100%;
     position: absolute;
     z-index: 99;
@@ -254,10 +254,10 @@ body {
 }
 #card-right button{
     cursor: pointer;
-    /* float: right; */
-    /* position: absolute;
+    float: right; 
+    position: absolute;
     right: 0px;
-    bottom: 0px; */
+    bottom: 0px;
     padding: 7px 15px;
     background-color: #685C57;
     border: none;
