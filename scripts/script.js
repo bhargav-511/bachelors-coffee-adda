@@ -1,6 +1,3 @@
-// var main = document.querySelector('#main-content');
-// var navbar = document.querySelector('nav');
-
 gsap.to('#navbar',{
     backgroundColor: '#000000',
     opacity: 1,
