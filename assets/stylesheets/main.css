@@ -24,7 +24,7 @@ body {
 
 /* Main Styling */
 #wrapper{
-    height: 200vh;
+    height: 150vh;
     width: 100%;
     position: relative;
 }
@@ -37,8 +37,8 @@ body {
     top: 0;
     left: 0;
 }
-#blur{
-    height: 380vh;
+#blur-home{
+    height: 400vh;
     width: 100%;
     position: absolute;
     z-index: 99;
@@ -180,6 +180,17 @@ body {
 #circle:hover{
     border: 1px solid wheat;
 }
+
+/*menu*/
+
+#blur-menu{
+    height: 550vh;
+    width: 100%;
+    position: absolute;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(3px);
+}
 #recommended{
     height: 380vh;
     width: 100%;
@@ -253,8 +264,16 @@ body {
     font-weight: 900;
     border-radius: 10px;
 }
-
 /* About */
+
+#blur-about{
+    height: 150vh;
+    width: 100%;
+    position: absolute;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(3px);
+}
 
 #about{
     height: 90vh;
@@ -310,8 +329,17 @@ body {
 
 /* Contact */
 
+#blur-contact{
+    height: 260vh;
+    width: 100%;
+    position: absolute;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(3px);
+}
+
 #contact{
-    height: 130vh;
+    height:500vh;
     width: 100%;
     padding: 50px 150px;
     background-color:rgba(0, 0, 0, 0.7);
@@ -382,6 +410,7 @@ body {
     height: 70vh;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.6);
+    margin-top: 200px;
 }
 #contact-detail #cd-left{
     width: 40%;
